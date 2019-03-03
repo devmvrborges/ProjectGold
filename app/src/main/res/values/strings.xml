@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">ProjectGold</string>
+
+    //[LOGIN]
+    <string name="login_title">Login</string>
+
+    <string name="login_label_login">Usuário</string>
+    <string name="login_label_passworld">Senha</string>
+
+    <string name="login_action_login">Login</string>
+    <string name="login_action_sign">Criar conta</string>
+    <string name="login_action_forgetPassworld">Esqueci a senha</string>
+
+    <string name="login_place_login">Digite seu usuário</string>
+    <string name="login_place_passworld">Digite sua senha</string>
+    //[/LOGIN]
+
+    //[CREATE ACCOUNT]
+    <string name="createLogin_title">Criar conta</string>
+
+    <string name="createLogin_label_email">E-mail</string>
+    <string name="createLogin_label_name">Usuário</string>
+    <string name="createLogin_label_password">Senha</string>
+    <string name="createLogin_label_confirmPassword">Confirmar senha</string>
+    <string name="createLogin_label_cancel">Cancelar</string>
+    <string name="createLogin_label_create">Criar conta</string>
+
+    <string name="createLogin_alert_success">Conta criada!</string>
+    <string name="createLogin_alert_invalid">Confirme os dados</string>
+
+    //[/CREATE ACCOUNT]
+
+
+    //[FORGET PASSWORD]
+    <string name="forgetPassword_title">Esqueci a senha</string>
+    <string name="forgetPassword_label_email">E-mail</string>
+    <string name="forgetPassword_label_cancel">Cancelar</string>
+    <string name="forgetPassword_label_create">Enviar</string>
+
+    <string name="forgetPassword_alert_success">Senha enviada para o e-mail</string>
+
+    //[/FORGET PASSWORD]
 </resources>
