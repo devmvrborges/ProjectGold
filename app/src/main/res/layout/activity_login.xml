@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".configs.Login">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,38 +12,40 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+        //logo
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/login_title"/>
 
-        <TextView
+        //field login
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/login_label_login" />
+            android:hint="@string/login_label_login">
 
-        <EditText
-            android:id="@+id/txtUser"
+            <EditText
+                android:id="@+id/txtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        //field password
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:tooltipText="@string/login_place_login" />
+            android:hint="@string/login_label_password">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/login_label_passworld" />
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/txtPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:tooltipText="@string/login_place_passworld" />
-
-
+        //button forget password
         <Button
             android:id="@+id/btnForget"
             style="@android:style/Widget.Material.Light.Button.Borderless"
@@ -51,22 +53,23 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:onClick="onClickBtnForget"
-            android:text="@string/login_action_forgetPassworld" />
+            android:text="@string/login_action_forgetPassword" />
 
-
+        //button login and create new account
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-
+            //button new account
             <Button
                 android:id="@+id/btnSign"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:text="@string/login_action_sign"
-                android:onClick="onClickBtnSign"/>
+                android:onClick="onClickBtnSign"
+                android:text="@string/login_action_sign" />
 
+            //button login
             <Button
                 android:id="@+id/btnLogin"
                 android:layout_width="wrap_content"

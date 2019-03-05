@@ -1,10 +1,22 @@
-package com.mvrborges.projectgold;
+package com.mvrborges.projectgold.configs;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.mvrborges.projectgold.Expense.AddExpense;
+import com.mvrborges.projectgold.R;
+import com.mvrborges.projectgold.Expense.ViewExpense;
+import com.mvrborges.projectgold.account.AddAccount;
+import com.mvrborges.projectgold.account.ViewAccount;
+import com.mvrborges.projectgold.category.AddCategory;
+import com.mvrborges.projectgold.category.ViewCategory;
+import com.mvrborges.projectgold.income.AddIncome;
+import com.mvrborges.projectgold.income.ViewIncome;
+import com.mvrborges.projectgold.transfers.AddTransfer;
+import com.mvrborges.projectgold.transfers.ViewTransfer;
 
 public class Main extends AppCompatActivity {
 
@@ -36,33 +48,53 @@ public class Main extends AppCompatActivity {
     }
 
     public void onClickAddDespesa(View view) {
+        Intent inCreate = new Intent(Main.this, AddExpense.class);
+        startActivity(inCreate);
     }
 
     public void onClickViewDespesa(View view) {
+        Intent inCreate = new Intent(Main.this, ViewExpense.class);
+        startActivity(inCreate);
     }
 
     public void onClickAddRenda(View view) {
+        Intent inCreate = new Intent(Main.this, AddIncome.class);
+        startActivity(inCreate);
     }
 
     public void onClickViewRenda(View view) {
+        Intent inCreate = new Intent(Main.this, ViewIncome.class);
+        startActivity(inCreate);
     }
 
     public void onClickAddConta(View view) {
+        Intent inCreate = new Intent(Main.this, AddAccount.class);
+        startActivity(inCreate);
     }
 
     public void onClickViewConta(View view) {
+        Intent inCreate = new Intent(Main.this, ViewAccount.class);
+        startActivity(inCreate);
     }
 
     public void onClickAddTransferencia(View view) {
+        Intent inCreate = new Intent(Main.this, AddTransfer.class);
+        startActivity(inCreate);
     }
 
     public void onClickViewTransferencia(View view) {
+        Intent inCreate = new Intent(Main.this, ViewTransfer.class);
+        startActivity(inCreate);
     }
 
     public void onClickAddCategoria(View view) {
+        Intent inCreate = new Intent(Main.this, AddCategory.class);
+        startActivity(inCreate);
     }
 
     public void onClickViewCategoria(View view) {
+        Intent inCreate = new Intent(Main.this, ViewCategory.class);
+        startActivity(inCreate);
     }
 
     public void onClickExtrato(View view) {

@@ -2,17 +2,31 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mvrborges.projectgold">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".configs.MyFirebase"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForgetPassword"></activity>
-        <activity android:name=".CreateNewAccount" />
-        <activity android:name=".Login" />
-        <activity android:name=".Main">
+        <activity android:name=".category.AddCategory"></activity>
+        <activity android:name=".transfers.ViewTransfer" />
+        <activity android:name=".transfers.AddTransfer" />
+        <activity android:name=".category.ViewCategory" />
+        <activity android:name=".account.ViewAccount" />
+        <activity android:name=".account.AddAccount" />
+        <activity android:name=".income.ViewIncome" />
+        <activity android:name=".income.AddIncome" />
+        <activity android:name=".CRUDexample" />
+        <activity android:name=".Expense.ViewExpense" />
+        <activity android:name=".Expense.AddExpense" />
+        <activity android:name=".configs.ForgetPassword" />
+        <activity android:name=".configs.CreateNewAccount" />
+        <activity android:name=".configs.Login" />
+        <activity android:name=".configs.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

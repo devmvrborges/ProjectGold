@@ -1,9 +1,11 @@
-package com.mvrborges.projectgold;
+package com.mvrborges.projectgold.configs;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.mvrborges.projectgold.R;
 
 public class CreateNewAccount extends AppCompatActivity {
 

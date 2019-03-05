@@ -1,10 +1,11 @@
-package com.mvrborges.projectgold;
+package com.mvrborges.projectgold.configs;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import com.mvrborges.projectgold.R;
 
 public class ForgetPassword extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class ForgetPassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.setTitle(getResources().getText(R.string.forgetPassword_title));
         setContentView(R.layout.activity_forget_password);
+
 
     }
 

@@ -5,14 +5,11 @@
     <string name="login_title">Login</string>
 
     <string name="login_label_login">Usuário</string>
-    <string name="login_label_passworld">Senha</string>
+    <string name="login_label_password">Senha</string>
 
     <string name="login_action_login">Login</string>
     <string name="login_action_sign">Criar conta</string>
-    <string name="login_action_forgetPassworld">Esqueci a senha</string>
-
-    <string name="login_place_login">Digite seu usuário</string>
-    <string name="login_place_passworld">Digite sua senha</string>
+    <string name="login_action_forgetPassword">Esqueci a senha</string>
     //[/LOGIN]
 
     //[CREATE ACCOUNT]
@@ -27,7 +24,6 @@
 
     <string name="createLogin_alert_success">Conta criada!</string>
     <string name="createLogin_alert_invalid">Confirme os dados</string>
-
     //[/CREATE ACCOUNT]
 
 
@@ -38,6 +34,107 @@
     <string name="forgetPassword_label_create">Enviar</string>
 
     <string name="forgetPassword_alert_success">Senha enviada para o e-mail</string>
-
     //[/FORGET PASSWORD]
+
+    //[EXPENSE]
+    <string name="expense_title">Adicionar ou editar despesas</string>
+    <string name="expense_title_view">Visualizar despesas</string>
+
+    <string name="expense_label_date">Data</string>
+    <string name="expense_label_category">Categoria</string>
+    <string name="expense_label_value">Valor</string>
+    <string name="expense_label_description">Nome</string>
+    <string name="expense_label_account">Conta</string>
+    <string name="expense_label_fix_value">Valor fixo</string>
+    <string name="expense_label_registred">Registrado</string>
+    <string name="expense_label_recurrent">Recorrente</string>
+
+    <string name="expense_action_cancel">Cancelar</string>
+    <string name="expense_action_create">Salvar</string>
+
+    <string name="expense_alert_success">Despesa salva</string>
+    //[/EXPENSE]
+
+    //[INCOME]
+    <string name="income_title">Adicionar ou editar renda</string>
+    <string name="income_title_view">Visualizar rendas</string>
+
+    <string name="income_label_date">Data</string>
+    <string name="income_label_category">Categoria</string>
+    <string name="income_label_value">Valor</string>
+    <string name="income_label_description">Nome</string>
+    <string name="income_label_account">Conta</string>
+    <string name="income_label_fix_value">Valor fixo</string>
+    <string name="income_label_registred">Registrado</string>
+    <string name="income_label_recurrent">Recorrente</string>
+
+    <string name="income_action_cancel">Cancelar</string>
+    <string name="income_action_create">Salvar</string>
+
+    <string name="income_alert_success">Despesa salva</string>
+    //[/INCOME]
+
+    //[ACCOUNT]
+    <string name="account_title">Adicionar ou editar conta</string>
+    <string name="account_title_view">Visualizar contas</string>
+
+    <string name="account_label_name">Nome</string>
+    <string name="account_label_type">Tipo</string>
+    <string name="account_label_payment">Dia pagamento</string>
+    <string name="account_label_bestday">Melhor dia a ser pago</string>
+
+    <string name="account_action_cancel">Cancelar</string>
+    <string name="account_action_create">Salvar</string>
+    //[/ACCOUNT]
+
+    //[TRANSFER]
+    <string name="transfer_title">Adicionar ou editar transferencias</string>
+    <string name="transfer_title_view">Visualizar transferencias</string>
+
+    <string name="transfer_label_date">Data</string>
+    <string name="transfer_label_origin">Conta origem</string>
+    <string name="transfer_label_target">Conta destino</string>
+    <string name="transfer_label_value">Valor</string>
+
+
+    <string name="transfer_action_cancel">Cancelar</string>
+    <string name="transfer_action_create">Salvar</string>
+
+    //[/TRANSFER]
+
+    //[CATEGORY]
+    <string name="category_title">Adicionar ou editar categorias</string>
+    <string name="category_title_view">Visualizar categorias</string>
+
+    <string name="category_label_name">Nome</string>
+    <string name="category_label_type">Tipo</string>
+
+    <string name="category_action_cancel">Cancelar</string>
+    <string name="category_action_create">Salvar</string>
+    //[/CATEGORY]
+
+
+    <string-array name="itens_Mock">
+        <item>Selecione..</item>
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+
+    <string-array name="type_account">
+        <item>Selecione...</item>
+        <item>Conta corrente</item>
+        <item>Poupança</item>
+        <item>Cartão de crédito</item>
+    </string-array>
+
+    <string-array name="type_action">
+        <item>Selecione...</item>
+        <item>Renda</item>
+        <item>Despesa</item>
+    </string-array>
+
+
 </resources>

@@ -4,120 +4,124 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main">
+    tools:context=".configs.Main">
 
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-           <Button
-               android:id="@+id/login"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="Login"
-               android:onClick="onClickLogin"/>
-           <Button
-               android:id="@+id/addDespesa"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="add/edit despesa"
-               android:onClick="onClickAddDespesa"/>
-           <Button
-               android:id="@+id/viewDespesa"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="view despesa"
-               android:onClick="onClickViewDespesa"/>
-           <Button
-               android:id="@+id/addRenda"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="add/edit renda"
-               android:onClick="onClickAddRenda"/>
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLogin"
+                android:text="Login" />
 
-           <Button
-               android:id="@+id/viewRenda"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="view rendas"
-               android:onClick="onClickViewRenda"/>
+            <Button
+                android:id="@+id/addDespesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAddDespesa"
+                android:text="add/edit despesa" />
 
-           <Button
-               android:id="@+id/addConta"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="add/edit conta"
-               android:onClick="onClickAddConta"/>
-           <Button
-               android:id="@+id/viewConta"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="view contas"
-               android:onClick="onClickViewConta"/>
+            <Button
+                android:id="@+id/viewDespesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickViewDespesa"
+                android:text="view despesa" />
 
-           <Button
-               android:id="@+id/addTransferencia"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="add/edit transferencias"
-               android:onClick="onClickAddTransferencia"/>
+            <Button
+                android:id="@+id/addRenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAddRenda"
+                android:text="add/edit renda" />
 
-           <Button
-               android:id="@+id/viewTransferencia"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="view transferencias"
-               android:onClick="onClickViewTransferencia"/>
+            <Button
+                android:id="@+id/viewRenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickViewRenda"
+                android:text="view rendas" />
 
-           <Button
-               android:id="@+id/addCategorias"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="add/edit categorias in/out"
-               android:onClick="onClickAddCategoria"/>
+            <Button
+                android:id="@+id/addConta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAddConta"
+                android:text="add/edit conta" />
 
-           <Button
-               android:id="@+id/viewCategoria"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="view categorias in/out"
-               android:onClick="onClickViewCategoria"/>
+            <Button
+                android:id="@+id/viewConta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickViewConta"
+                android:text="view contas" />
 
-           <Button
-               android:id="@+id/extrato"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="extrato"
-               android:onClick="onClickExtrato"/>
+            <Button
+                android:id="@+id/addTransferencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAddTransferencia"
+                android:text="add/edit transferencias" />
 
-           <Button
-               android:id="@+id/dashboard"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="dashboard"
-               android:onClick="onClickDashboard"/>
+            <Button
+                android:id="@+id/viewTransferencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickViewTransferencia"
+                android:text="view transferencias" />
 
-           <Button
-               android:id="@+id/config"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="configuracoes"
-               android:onClick="onClickConfigs"/>
+            <Button
+                android:id="@+id/addCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAddCategoria"
+                android:text="add/edit categorias in/out" />
 
-           <Button
-               android:id="@+id/about"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="about"
-               android:onClick="onClickAbout"/>
+            <Button
+                android:id="@+id/viewCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickViewCategoria"
+                android:text="view categorias in/out" />
 
-       </LinearLayout>
+            <Button
+                android:id="@+id/extrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickExtrato"
+                android:text="extrato" />
 
-   </ScrollView>
+            <Button
+                android:id="@+id/dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDashboard"
+                android:text="dashboard" />
+
+            <Button
+                android:id="@+id/config"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickConfigs"
+                android:text="configuracoes" />
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAbout"
+                android:text="about" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
