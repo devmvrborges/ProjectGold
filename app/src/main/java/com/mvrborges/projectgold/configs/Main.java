@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.mvrborges.projectgold.CRUDexample;
 import com.mvrborges.projectgold.Expense.AddExpense;
 import com.mvrborges.projectgold.R;
 import com.mvrborges.projectgold.Expense.ViewExpense;
@@ -107,5 +108,7 @@ public class Main extends AppCompatActivity {
     }
 
     public void onClickAbout(View view) {
+        Intent inCreate = new Intent(Main.this, CRUDexample.class);
+        startActivity(inCreate);
     }
 }

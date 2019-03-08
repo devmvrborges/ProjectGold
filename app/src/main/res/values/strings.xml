@@ -135,6 +135,7 @@
         <item>Renda</item>
         <item>Despesa</item>
     </string-array>
+    <string name="title_activity_teste">teste</string>
 
 
 </resources>

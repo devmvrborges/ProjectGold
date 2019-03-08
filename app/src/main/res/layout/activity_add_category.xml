@@ -20,7 +20,7 @@
             android:hint="@string/category_label_name">
 
             <EditText
-                android:id="@+id/txtDescription"
+                android:id="@+id/txtName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textShortMessage" />
@@ -70,6 +70,10 @@
 
         </RelativeLayout>
 
+
+
+
     </LinearLayout>
+
 
 </LinearLayout>

@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".category.AddCategory"></activity>
+        <activity android:name=".category.AddCategory" />
         <activity android:name=".transfers.ViewTransfer" />
         <activity android:name=".transfers.AddTransfer" />
         <activity android:name=".category.ViewCategory" />

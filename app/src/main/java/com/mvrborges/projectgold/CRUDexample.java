@@ -47,8 +47,6 @@ public class CRUDexample extends AppCompatActivity {
 
         inicializarFirebase();
         listarDados();
-
-
     }
 
     private void listarDados() {
