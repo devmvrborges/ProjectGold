@@ -77,18 +77,18 @@
             android:layout_alignParentBottom="true">
 
             //button cancel
-            <Button
-                android:id="@+id/btnCancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:onClick="onClickBtnCancel"
-                android:text="@string/expense_action_cancel" />
+            <!--<Button-->
+                <!--android:id="@+id/btnCancel"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:onClick="onClickBtnCancel"-->
+                <!--android:text="@string/expense_action_cancel" />-->
 
             //button save
             <Button
                 android:id="@+id/btnCreate"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:onClick="onClickBtnCreate"
