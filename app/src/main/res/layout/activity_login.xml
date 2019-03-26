@@ -48,36 +48,33 @@
         //button forget password
         <Button
             android:id="@+id/btnForget"
-            style="@android:style/Widget.Material.Light.Button.Borderless"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:onClick="onClickBtnForget"
             android:text="@string/login_action_forgetPassword" />
 
-        //button login and create new account
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+
 
             //button new account
             <Button
                 android:id="@+id/btnSign"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:onClick="onClickBtnSign"
-                android:text="@string/login_action_sign" />
+                android:text="@string/login_action_sign"
+                android:onClick="onClickBtnSign"/>
 
             //button login
             <Button
                 android:id="@+id/btnLogin"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:text="@string/login_action_login" />
+                android:text="@string/login_action_login"
+                android:onClick="onClickBtnLogin"/>
 
-        </RelativeLayout>
+
 
     </LinearLayout>
 

@@ -22,12 +22,12 @@
                 android:onClick="onClickLogin"
                 android:text="Login" />
 
-            <Button
-                android:id="@+id/addDespesa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClickAddDespesa"
-                android:text="add/edit despesa" />
+            <!--<Button-->
+                <!--android:id="@+id/addDespesa"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onClickAddDespesa"-->
+                <!--android:text="add/edit despesa" />-->
 
             <Button
                 android:id="@+id/viewDespesa"
@@ -36,12 +36,12 @@
                 android:onClick="onClickViewDespesa"
                 android:text="view despesa" />
 
-            <Button
-                android:id="@+id/addRenda"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClickAddRenda"
-                android:text="add/edit renda" />
+            <!--<Button-->
+                <!--android:id="@+id/addRenda"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onClickAddRenda"-->
+                <!--android:text="add/edit renda" />-->
 
             <Button
                 android:id="@+id/viewRenda"
@@ -50,12 +50,12 @@
                 android:onClick="onClickViewRenda"
                 android:text="view rendas" />
 
-            <Button
-                android:id="@+id/addConta"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClickAddConta"
-                android:text="add/edit conta" />
+            <!--<Button-->
+                <!--android:id="@+id/addConta"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onClickAddConta"-->
+                <!--android:text="add/edit conta" />-->
 
             <Button
                 android:id="@+id/viewConta"
@@ -64,12 +64,12 @@
                 android:onClick="onClickViewConta"
                 android:text="view contas" />
 
-            <Button
-                android:id="@+id/addTransferencia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClickAddTransferencia"
-                android:text="add/edit transferencias" />
+            <!--<Button-->
+                <!--android:id="@+id/addTransferencia"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onClickAddTransferencia"-->
+                <!--android:text="add/edit transferencias" />-->
 
             <Button
                 android:id="@+id/viewTransferencia"
@@ -78,12 +78,12 @@
                 android:onClick="onClickViewTransferencia"
                 android:text="view transferencias" />
 
-            <Button
-                android:id="@+id/addCategorias"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClickAddCategoria"
-                android:text="add/edit categorias in/out" />
+            <!--<Button-->
+                <!--android:id="@+id/addCategorias"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="onClickAddCategoria"-->
+                <!--android:text="add/edit categorias in/out" />-->
 
             <Button
                 android:id="@+id/viewCategoria"

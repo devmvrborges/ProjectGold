@@ -24,7 +24,6 @@ class ViewExpense : AppCompatActivity() {
 
         val fab = findViewById<View>(R.id.AddExpense) as FloatingActionButton
 
-
         fab.setOnClickListener {
             val inCreate = Intent(this@ViewExpense, AddExpense::class.java)
             startActivity(inCreate)
